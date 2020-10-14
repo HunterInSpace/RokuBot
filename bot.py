@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from roku import Roku
 
-roku = Roku(Roku_IP)
+roku = Roku("Roku_IP")
 
 bot = commands.Bot(command_prefix = '$')
 

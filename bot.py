@@ -61,4 +61,4 @@ async def on_ready():
     await bot.change_presence(status=discord.Status.online, activity=discord.Game('With Roku!'))
     print('Bot is online!')
 
-bot.run(Bot_Token)
+bot.run("Bot_Token")

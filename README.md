@@ -114,7 +114,7 @@ $right | Imitates pressing the right control button on a Roku remote
 $select | Imitates pressing the center select button on a Roku remote
 $back | Imitates pressing the back button on a Roku remote
 $type "What you want to type" | Imitates typing on a Roku TV can be used for typing in a video name on the Youtube app for example
-$backspace | Imitates pressing backspace on a Roku TV which can be used in a app such as youtube
+$backspace | Imitates pressing backspace on a Roku TV which can be used in a app such as Youtube
 
 
 ## Do you accept Pull requests?

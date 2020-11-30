@@ -14,7 +14,7 @@ and then you will need a few python modules, to install these you can use
 pip install roku
 ```
 and
-```bash 
+```bash
 pip install discord.py
 ```
 These are the only two dependencies that RokuBot currently uses
@@ -22,7 +22,7 @@ These are the only two dependencies that RokuBot currently uses
 # Setup
 To setup RokuBot you will need to edit a few things in the [bot.py](https://github.com/TurtDev/RokuBot/blob/master/bot.py) file
 
-You will need to edit the Roku_IP in 
+You will need to edit the Roku_IP in
 
 ```python
 roku = Roku("Roku_IP")
@@ -30,22 +30,22 @@ roku = Roku("Roku_IP")
 
 To get the IP of your roku you will need to go to your roku, so you should start here
 
-![](https://lh3.googleusercontent.com/fife/ABSRlIpPUBgNnqDGniN8AzaZaxOUYTpiJhLsLtO2mvL3jf3AYA21ZXAl5ZzIDzLyqSYaivNisxPN_sAVoQbWGW9cOIhQJhuqHygqPLXRjzC-VukKInwKMwXGgWac797SwZl3rkIpbX3pnXQuNSHb-eWNuE8EkVFqxd4ahitwfFaa7R3ROENBCANiVskHo3rLUKCfxh16w5_5NzkqovBEKJYblURqE2D6mNDS633-SZ_dEXlPcwQ-2rlKMkRKZmU9ICpTJa2RRq25aZfI2vHScY1kUsUdRVWo-F0v1VbjX7JFOAF5EFfdO0REzOzmvZiDcGCftt_pUaYuv78EqWKh1egXe910zRf1PEPOKEV6rP-KHFYAspmaBXcL3VpucC8hcpnKdQeWeFJBzNP94bMSuAITPDb8Xs6kD6Sv_OpmuIMkWhqBhp9N_KHIMu2I4ROKY5_UZOT5vlKjdA2vR6RfCRPffjRr7Mu1ZWuAv9iiYAwvvu6ji3pej6rGM6FuBLZa1eAK6B0FjJsND58U_yMoZMR-AGOxMk6Rq9yO6nkaW8LvwK7akmbOEheMI4oKHJ6mX5Qpzdof-ekWZANkfZ9c6sZfVrcFqK1aAuv9vPDHPitqF0mC-CF-CXm9Y9nSDDjEO7Fx5MJUI_-W2u8CTG_t7TFAKc9l6x2AzCIqIfuxETBnqSDw0floOA9mkMniqFH5cVoQDDen2ijuD78EXHo9zM2HfCst=s1245-w1245-h700-no?authuser=4?.jpg)
+![](https://i.imgur.com/ihyMnCg.png)
 
 Go left until you make it here
-![](https://lh3.googleusercontent.com/fife/ABSRlIpYDlb-raLkwd1sD5yPIfsKNf9kDZYSPpU3-XqCcTlSNJZVGmqRkjs5WYYjonbtX0_rcSyO5igSUf4T__qNRZ-yOrqv_UlpM9MpcbGBo05TD894UUPxZksWjk9A57Mrb511DAXdKNK1db--t_AU48KirOOLK6cAjlJGmONFpxHKdpY5PX5v3TK6NJkknTShiSWI3H3RP2X-0gI3rePShm7lBD4ClE7YOoT0il4VCcFADUhycf_UbUYLCVRhGJuK21gnNgrbO1JvvM7ZtfhJ1qBw7PKlIaOF6co_RNPkGhzHkV8FEovlNCIqsOCMNvSbACXWoc_YFM3wCjh0Aulcot4PnTc54GNAeTTimYerGkJZXgzH1O94lONxvzUizTqJNVUkkUxgpPwq-oehm0sDwtz1vubEPPGgic6ecXLiH2TOD8-EFjjMPhV4_sPMxCjKkZhfqQJCMzC_tGqEu0nO93eTyoNkcOfXAJLxYewwF0v5bqz_0_dHIrr3mRnE_16HRT37vrvNHquI8Eog85yfoPlYkLmduMFFfy2PDkXHVr0MLqaXicsn65VOBLNE5JoWCPUEbRD0xKafLGFXqshxiDePy0APVLr9lgSV2Kxc-2nfEEPO2exYajkDv9EBmwCaIPzjLi_k4BMfD2c50mtpPTVzFC_fdlkQ8i0TlYbelwwCY9gsbtuz8RRmNmDdfeF41FFd8yKPY8UTm0nAXW32FJmq=s1245-w1245-h700-no?authuser=4?.jpg)
+![](https://i.imgur.com/8w9UeZO.png)
 
 And then scroll down until you reach ***Settings***
-![](https://lh3.googleusercontent.com/fife/ABSRlIpdlSZnbBeC9WCG3lV9w-2jQ6sRbULY94Qb67xsO_Oz-eHgrrs9smQn_SnlCQ2HcWYP7sK-LagsKIcScybLSs80yF-m47nlVUcdpj-ck249yxmuAhPTGDVKoVEX4uNu6wKxH1qjsd2MSnCWwoNxnpUb90xiaHWSUUaQaMS3-jdmI7IC4UqnB0W4H3Wh_rbAeb6VcMtNhozQmWRe9Wo4RhHzXw_u5Us1oy32kU7Symb8TGOeFK_ot0dQs6iG65uVhzlslQMWEcj-BXvju8fQ9s_a91ZHswHSAjCP7NqAeYlNrZawJjgceYb0K9jAzCnewWvnbL5l57VViyhzPr8eZG7bDFkJgVHt3n2CP47I9INOFj4o1LhOyYJ0CNWbHRIh9EOPCGEYP8mYmEIBInT5jNlVURXf-gDz9LF-qbtCA4QF-Z92EN_NzmEttYNTH0bvTtXKaGFeMIcJOZHFdahoPqP7iCF1fHXLGdc3-p8q5SbboGvOIwwi3__RTp9EaSLqm2utnRPNBa-KEAa_1YSE18jMfArJkn3cJ5sDJp54hkdZ-Igb6bBMFUil7pYbnM-Zyhpufi4VWHTqW85FZW4LTxc_QvU7Yez7oegNMTaq3x0kuPo-1ryyc3Ue86_nK9hvIgCoXfkoi-8MxoNijNKmpJieaMKwBqS85xl4Am0vXHezFFfvnL8FdPImlbugUY-lTgkz3gWf29JfJ5AnrrypDPZG=s1245-w1245-h700-no?authuser=4?.jpg)
+![](https://i.imgur.com/bTGLgNR.png)
 
 And then go right onto ***Network***
-![](https://lh3.googleusercontent.com/fife/ABSRlIpuzmQkKxQYx0p36KEooqnmj94QfLZu1go_kIoFeRwu2A85mTdNU7sSubLFwGhCd51Au3ox2kAPRalul42rM7fPQ-DplR4n3rsy5SU8AlXQv9qSjxnu4e-6ySii_9o6GaASSu3Hbx0EW8ZZS09hvLOLRalK2QYJRzdB0Keer03eTn9KQeqahtBMOGj2zcGK60OcpH8p9SQucjIZOugxhi2hdwxXdJ0JIpiRvUNLPhms1NR4_VDTmMMp6_sgZ7_zHJWAj35XkEIJcOuG8CdTZfuSngQOBCjQ0jpxJVR3QTeJFL7Z2E14rvCJpOJY1qiJ7IFMayhtpDHWRb-7u-ydavic-t084uDzQzZYY5M8GHYjoNWtmHvllr3U15Plls6iPYwMZ_B4b52AWtc2sAbKdTStSqPOSJCLOZIsE3S4xVKqkyC69gkxYgfBZO_uoPfT-uacrPg_BNMVEyX_Ts35Xlb6VIrfG61ico95gK2tKpL4kLCBu2GWWlnLitC-vh3SUt0RETLcW8nQdPY6ge8lDfIdMo9jQ3mQ0zpsi8ejjGYfwWcT0gyv0s0QfObmmc3n61FSOFXD6vvuytw1RrRSHoGf_l8Rjh-idNkGEDY9qr6YUhIEQ0ScCWdHMPfkhBErpyhFL84ltuzVGqMWFvlhGWF9iS9pmSBh2qjVofoUCAdegn9XU8-8Ut4uJXQpD_R1BWZhGkloJtcxWL_oSKUfa8Rd=s1245-w1245-h700-no?authuser=4?.jpg)
+![](https://i.imgur.com/8Gs0wVd.png)
 
 And then right one more time onto ***About***
-![](https://lh3.googleusercontent.com/fife/ABSRlIpXbcKQfNzk4wwZpfmEQ_DkE9ywzMdDkL7okHQ9cwhpakWzmhjXiUhnQqylk9DjTnXJRyYn8xWdTih8APXfmw3CGctXesEhssoLT6LaQO438AmgJYAhJirXzO6HLN4XITwucSgHoCPzVE5v1po1VmjFkJlP_x5dEqwnHn8uUjSbyHadW1mV74GiyInmLb3SpXxF1_pxjYZtRZIguljOcfrZFDFSFjBR2l33IoRzkmhxTZPdTETkV3k5N8V-YpcKG_2bNjw2VVSWyeo-SQnBPtSH3kEQJJw1fUJ2IoyBcah2RcPJXO0Wcy5UXdOPBknM-ypBdqXnHN2-aA90qXCzGMD2OlZViZ4fsWTyDWkwuXT3VgeK4A_3Ah3334B15MffgIPIk6iO_dN4lAfs1JHRXfXBlUU0DXS0GQeRZ7undbPdbEJtMYvKLg3pweqZkEaGHfm7yCjfHcfZ4ADTnCKmG6dy82uZmOJf4dC8_Pk3Ib_3JcoWpOSHS4xlaG7T3qHy9RtbP3CirNM9P9wQObLmaT_glT9uDNLJvDWBrBXkgHm-xya9bvLiIrE4SaWg3J4re2hO-mPymBuYhpKjEq3ynTCcwnum_mmJnLVzAVS0BQaQP3-IhpXEDqUv-1OEZedYLvn_XZWi4j3wYhNfmf1frqtFrAU9a0fmF5CAu33k0Ut_ghaPTMTGhh75VFM2v5q_azahVdYxdY02h-UIMzCYB_X7=s1245-w1245-h700-no?authuser=4?.jpg)
+![](https://i.imgur.com/neKkNmB.png)
 
 And then take note of the ***IP address*** which in my case in 192.168.1.56
-this will now replace the Roku_IP which I showed earlier, so lets say your Roku's IP address is the same as mine 
+this will now replace the Roku_IP which I showed earlier, so lets say your Roku's IP address is the same as mine
 
 ```python
 roku = Roku("Roku_IP")
@@ -53,56 +53,56 @@ roku = Roku("Roku_IP")
 will now become
 ```python
 roku = Roku("192.168.1.56")
-``` 
-And now you will need to replace the ***Bot_Token*** in 
+```
+And now you will need to replace the ***Bot_Token*** in
 ```python
 bot.run("Bot_Token")
 ```
 
-To do this you will need to 
+To do this you will need to
 A. Have a Discord account which I'm guessing you already have
 And B. Be on the [Discord Developer Portal](https://discord.com/developers/applications)
-To get a Bot Token you will need a Discord application which can be made by simply by clicking ***New Application*** 
-![](https://lh3.googleusercontent.com/fife/ABSRlIraDRg55etZvmuG_A3R_CkS04BjgmpK7RirlW7X94hKwICdqtyPsOyyi7fT8AveQEAvrdUUjBUJ6je0Y3MfD2v5--Evn9KXC1fBTth2bZ0iB_0-iW_UznCS8i1KWCMzrCzKRXqx-q0AgW-_zcmpHLe3YXQ3GIecuIiESOrUKWELcBJ7TXeJJJfNNHYtu78QTHxOvX2Vt86cVeaNlE86Je2QrcU78Eo0nRGRHkHaYCQR0kd75l-f5Z4TmyhrguviDosB9zzkRLnMtij0oHanddOV9mK3DYVFzNh1Mj5kyxXOju9kqLJmrVfHcQJ_wazvSu1_HtWxU6xhsicGaC6JZzl90pHXs_734tBYAtzmaiGjSJfY6oiKgWuXjibLpgv1cUkuJc26rraYVTE8hKYHbDl-sJlag5KB6wx7bATGzUFWDt-6W94cONhuKOuazacTy_PBlAhWYxoQj-9LgjF5K7i0QF6KM6q3_RapkcYxIRBsuVkJ3BXwUoGZhXNlvmjrztrVbtQZe2_CByQac-Wjjd1xdm4AoFe34iKiNe_5iy_Ls-3oOJC8GgKtOP1AS-sPXZzcLOl035V1MuyuqrwqsKsb03t_zrhMzc64gb4bTcoojSMt_ECoU0bMSFyJ9tGtH0mkRBiY1HMy7Q0ewW1tMoN17CVG9jcE0sjLuZ3tkUs9lBxHQM3JxiyUna5d5e1mS87CIpc-NzBGX62PhGyZSLYV=s1578-w1578-h700-no?authuser=4?.jpg)
+To get a Bot Token you will need a Discord application which can be made by simply by clicking ***New Application***
+![](https://i.imgur.com/T54DiM3.png)
 Giving your application a name (can be anything I just named it Roku Bot in this example)
-![](https://lh3.googleusercontent.com/fife/ABSRlIpYF5_sGHKMoxhqFhnR3o2yMEnbQICh-wsgWD2DqGENcS78-i3NRDiVai-JZSZwmTr5bGGfeRFt3Gm9_WzPen_Tm8XPoYSPwodf03X0jQU5KA-_0q4ZD_ITcRxMEv1fiwpXStCJwwglrVZiPFIg_gqze3SvC_GWpHdKGBzflLTV8uxLvDs6XlwzSvEb-D62EI8TwPj6POUO5UlEPflccXfP90f4i9nEwn27t3Cpz6EEaj9qFkePg_Khn6mtcoAgLc67YJ6Xtg3EXbuhDKFAxVBFUUpNPBc5ihtQQzB3o6FrAWVPfypSn5XUYOKRTcHXYbUYJJNObAk7B5eaNXkEckHZr2cQJYWoJZoZcoLa2EYPFG9F-Cx2XVtOGTxZkqCaQSPyLVwE6DUyTba2z9ozqmxf2mz4jVxufFVjeY89dzHkxpFlNKG9bB_m3wvQEFyMV252AI43XsEq1Gs7O_dGF6SQOaHdXLL9AVbsVeW4enYi_hLGd3F8VKp_buy-GlQM-gHKvg-AqMooQ8HRXx3V6ShN2HD1mMj0BNotEdw59_dyZn2N-F8jch6SQNqS01ttwhiU0DU0r70ST69U9pFrG5qVPgVKcOqjbfnKRzaHiLJxikQfHWAcNN9Zf5kYl52UWiW9_8-LSDSFOgXxgUdKMkv3R0OxYsG-W6OlrRse4DFrmpuYRk-DeddLxqyEsqCBSaNuK_TTUxdTE2T9EQ-bLKS5=s1600-w1600-h696-no?authuser=4?.jpg)
+![](https://i.imgur.com/yodst7s.png)
 After clicking create you will be sent to this screen where you will click ***Bot***
-![](https://lh3.googleusercontent.com/fife/ABSRlIoNjw4u_D6-bkabMtpbS6IX3H2E0st3-OnJJIfARvkuoUkB8BIQpyh_bVq7xmskXwsDlFBBNCeK3grsNzqFvEzhqDHZzPctIu6DT9PMK8yZ-yLjQ4BHmQHetcVEQ4z--6a1B0za4B7ggpNNYB_2ERSHRP0c4XOZaswj8TD9KQ4sf1_XICZ8SdBdhNUjlMRj9ZdZ-KEtKJhunsxtpacgUAhRRvYeky4rjkm7OOB-4GxVRbp6UfQwSpr3vCkMNENp2b9XFF-dfqMlMKeOdRy75-PZivOgc_5gbKWywdizuqhAh5FDBQcDye7zp6Wnc9INYKHONWt8dMSr5L0PGf6Qjk73rb5bE0ien7JxFjy-Dh-pLtiBgo4H0gNLquOmT-K2sNFqm-fhXVVa2OOCPDHfbIhiQHwQcabs8m7YU0j5TXWO7V15uGzK-lPm4nl7tr6lj9nrgWeLYqbVWVGOjL30q5_jiE-3lcHdBH5NEwqshy-6q2RRPXn99A56sTvDsnoohgwO3Twni7Cl8H17ABowfSY716-IrwEcCZB2QSvOZz7tqCbSpcp13-2msYB8yP5rB_EAS-UCuHhYGgSZyLD_O8kJiW7KLILrEr4cG3CdqgNCux6pDhDJCLD9eMqs8YVLlGw6uwu15Ba-V4E0-N5cXT2W2l39DRHrXvoENbooijgohP_NQEN0ibJ4E88mT6Z4K8KavM_tkQMZE2X9UpFoIhQ8=s1600-w1600-h697-no?authuser=4?.jpg)
+![](https://i.imgur.com/e9JhINg.png)
 Click ***Add Bot***
-![](https://lh3.googleusercontent.com/fife/ABSRlIqsSrViU4r4X6h6rtigjQieKDBh5dIuRO99XS7Kz4ne699bGNupec6WEVuxPPmyxl_ro764yYe4aUjKU52-QBVICsGAQlZYtl26I8k62TaOIucSN1PzK-e-sLuKxqidOkod5AIBgO1sDmmVeDfJTA_X8FI-u1SAxMocOZuiULhCXenlbyi_7Lg_LdXXlhNnUSSFtKd2KPkMwNp3kZO_pAXOxzd6IWuM-4NnIvzS4eEur1vBraGEbZL8C_YZQhKIODcE_rA6u7wKOgAi7YLSn_VuW8CMYRQ5IJ5DuxRW4R4r1g7gKC_qjfw1M7sWPxg76EHmqB9l1W5U0Ht7MeobMIUwFtEuH1cTJEeaAnqUvO6D74acCX7IZyKd9a7PvXM6crDja9Z594nIE6Dd5ynhj45esH3bIa-Qydjjc4JYh96MbCKUlwyucEJBoGqjI1LQY7u-osCgGPfhMVTG8yzZKQ6KGH0x8GRwBBakjfONI29X8NMLhZTYdraVy5hl0aGD4d7Vt54dniMu95lyJynlUiKpxXL0n3BjAuQfsLH89Ios7ZHNgzCXe6_x7l9L7zXwN0KXL1qE0ioF9cX1QfQOvUlSmAlPSgfQmQs_EVSWY8mG_5hxjg8U-U1BlnG87BS7RyDmd4-rePr7w250ejDk1OSNTobhM0Wwa8XlSfkevOTbVQBMPkuSEN6JFz1SFFX8dHssXD9WRElfFuJOrdbi8xgz=s1600-w1600-h699-no?authuser=4?.jpg)
+![](https://i.imgur.com/qbGA17W.png)
 And then click ***Yes, do it!***
-![](https://lh3.googleusercontent.com/fife/ABSRlIoXkInU_KePa0yXRU4kzS5QD7ow_FJfm_2XnS-Cz_mYpB1m5IlEhMsUX2c5lDluD_2Nypj9qbwauY9-u6sSiHxxre0pd3I2E-KjIKsOrMO1cHrbbnk1GURjeePOA6lIUpHjGnPwhDdia8jiBKiAOBdWPQKNeYZ-ddARFnjcFJQVq0XqnXJ1PlgvdnT2E0Hi15Xwr6ZzgkF6bahVMnhEunHWBixg-uy0Mhvgx35g6q_b__z8m-HQ56T5ppwg1c-NUMg79FFVNKE921aP1uZCbeIrBEhLfloNHPcPLEOT_oYHLzy4CRu3dah5YEjhOXLHmr_uST0NoD4D4fF44Vdu96R-PZ50GvKKQSsLBN5Z5Xtn_406_tZ2nZ89cZa87B02cFu_Mj-nsEGyfaW3w30fQsuVmZpv6F99eZ3FuwBjlGvOGQ5cwnH4GsfmjXvHBsuCRFqvg-PrFENIlE4RmoNx9LIlVpf7weHuG_JRUwX8TYWutkZlGuUtthwJMF7EkQY3NKdHdRuopkyoa0IxQjdaWmJKKi97llF7UHKjm-v-o-6Hg3UUJ2v8Ydz7HWJ4Yj2lgc6crpjDbrUJycm5QiwbEm1J3uN-vlCzf7f-OWVbe6WsaQ3hT-XlCe9nyjc5hNvXxohSEsBcgxOaa8l7_CshxjJUInl7mkfyeo_zSU77surOfcWWQWVmxttzrH8CJLenLtwKUGF3liXslScPbbkBPI8h=s1600-w1600-h697-no?authuser=4?.jpg)
-You will then be sent to this page and you will click ***Copy*** and never ***EVER*** share this token with anyone with this token anybody can control your bot 
-![](https://lh3.googleusercontent.com/fife/ABSRlIrqEKEzl7O9bAt67xiF9MnOiZ5aw_4GoqJajrj9xXek0KotD6e9sDqTMiFD_9jLKZTdHf4KdxW6rgx0rfsZDhAaCxdKEie1xoPuQwQU-HsIfnR4aeVf8CP1yP06M-kKTvbX_t2Dk0-xZrjHTmrzLAhP2k0pGrOdQ763XvseGw-hOev0-sGTceTx7NRbr0p9YXrP1H-E2x2gS4jZdrWe16NDWUauXtZWupVkxkC54O5O0-2PafjOAE8_7hCrb1MN4RgHW4wbk4Ct9z0DE9Rh0bY0n36mv_DmCDZuLxl80T_aSL-raGBI3mWC66tu_uBWUfP5xvaoVHHiQPbCLLNJd9Bisk8ZDwAKJWCrgKXUSuOFdnOBFq7bvRfh0ZidN5H1FCqATc8kYNWnHte9OTEblsZLjG1RuFsUH_UfC-usir8VSvNjxt43jk9YcTfnSVQzfraSj0yjDU8uXuwlJqoqFdFzGSXVNYJjpKr-mve4OYg00tA6mGCOY3SS-1a0lo9lQ8iFO_9M525H8Mt6F2DhZTaQpxov5RB0A4L3GYoV1Ld2lGQND1As3c_GkydG41QvBOzYV8nn3Wr2ZWP7XCjCEttdvtNsrBz8x5oSdYVxWfIm6aTpHgCIcGcHHyUWAzcCsSYGfya0cEy_0D_9tOfpMSDl-NeAmcDXHdjyrRb7EiaSiOoTABERB4iM-TV2N7FKp2NmjMcuINMy2GbE6cHI1lGU=s1590-w1590-h757-no?authuser=4?.jpg)
-After clicking ***Copy*** just replace the Bot_Token in 
+![](https://i.imgur.com/MTThZRc.png)
+You will then be sent to this page and you will click ***Copy*** and never ***EVER*** share this token with anyone with this token anybody can control your bot
+![](https://i.imgur.com/BBr1yiM.png)
+After clicking ***Copy*** just replace the Bot_Token in
 ```python
 bot.run("Bot_Token")
 ```
 with your new token and you are done!
 
-Now just run the python file using 
+Now just run the python file using
 ```bash
 python bot.py
 ```
 And if everything worked you should see ***Bot is online!*** be printed in the console
 
-![](https://lh3.googleusercontent.com/fife/ABSRlIp9Gi74x3EsX1i2NGoJsaqc9lc8VEwvk6cH234pV70qukaWrkJ_4nDyb-sJ17gAXQ1YHv65TGEeqK7nm81A4Ilk4WL4nEeabFC1ZAjWu1fF4UcDnWz6AAX8_dtYOkjLg-Oc2sIXIvo_hQ11gSti1GEEokteV7rVtnHNmWlgvHJH8LLxjDuzrMnRe7_avTPnYCaYi05BpSrMTwu8H51ncdqACSMXA2NJ5HddoDxEJfjsUAMVmIZ-v_AGhahqC70O7QKv53h5S7eBKQX6acE6MIm9rsXA-G03zNHax9Ei5S2USIm24B8S8XLb0TyC495SfZ61uj33jlP1pqRnUxfyx1-6w9et1uSJqJaU6kTaNLbun0xuFzjBXLrPYmOJIX28UIuH0LxD9WdDDVCHfIgnPnl4Fq0IXEprlDK8w8Ad-q-yxuBF1RSAhzBpkbMhmDw3V1B1I8OTe5RsmrOrrWT3B2z8w_NiGX3UNnb2FXGcZwv1_Y_Uq28WHhAdn9uA_g11u5_MYDTf2DJwJR8oJVV5eUmaMCE_UI-U2-z64XWbLzCMBm5mn0rs-OolRGYQQHukmi5d6mc_aZtYAR4KeVLBXItQJbDd8gQaQ-gwIS-C4Eer1fCik7IDQExD1jPk938ElxQSYcr3QOUpACeAYefrZSHtmLETPfvUni5PErxWWGMpmcoBE54LuUpbK6_i0Jnueao8XkXOpk91hZITJtSmnhBv=s1089-w1089-h713-no?authuser=4?,jpg)
+![]https://i.imgur.com/y76moH4.png)
 
 And now you need to invite the bot to a server, to do this head over to ***OAuth2***
-![](https://lh3.googleusercontent.com/fife/ABSRlIpIXF71rsQhpryYO76n8CBjSoHM88urVDob9NZr77JJbRYUuKHUrZdSPYzfzUT0EXoA4sYp5BP_WrzjxXTS8pDUHM5pcmik7MRyYQykfyjsm9ZaluuOazBS0U-swC_FPtqu6Bx2WjI1OtVVWo4t2gz6dvB8zLyrQzvUgDU_emF3XiWw7LPz5JFmkS1IqdyK3XKRYwibn_fVdFjM0UykBP7e0_hnVavXw4iWtWVb4AzxoyI6WQuK3MVi5Yjm4pHSQc7NQeYg0Z1XfmWJI9gQptCtln1pP16gVMKjq7pEpK9y2eWZVI1FGtOR-eq4qqVPj66GsCMX95YTZ60pDDZ-a86AlPo0h-I2Eb4S2E20tPy_RIPGYjtyT1UUxEP8eLJ9RTDAwhi8IBzG2zjx6Me1bIx6GXESAdSj0aIoEMLP5VLkT7m2ZURI0TcxpAtWIxhTs8bcqkfkKpCjpya_9KIWW_7OrNTwh9dvADuCiQBZeNEojhfQ7yY6JscU-hZzQ2vzhaiwS0UckoAmSfisW270PZ6t5ms4gfatPaFS2xrkBMmEON1tdV0IeNWVdAb77YNZfUh1P7-rSpqQVSr6RsPE_00HYZ9SUx5DZjEiG4jJH-rsRGgCNyLzi5xYKHkp0GhDQRhOjsTvo0uwrVv3K1y0UtCQ_uDW39C9zLpK7VlzRxOlGehKlKgLL4euu7X8tfdGcf2z68UhMhhMaGbuE9HE5_MO=s1600-w1600-h744-no?authuser=4?.jpg)
+![](https://i.imgur.com/UweLfC2.png)
 
 Click ***bot*** and then copy the link
-![](https://lh3.googleusercontent.com/fife/ABSRlIpMMCSGAZKHImInJRy5X6ImDkF-sg6Cdmw7pF53sc9EU_UaJn3XhKrYokS_ucZEf-TzQbYgu1xs2VNcGadJPEbs6HvTrp3dg8t0ee90Xhi_UrEM9uZ92O74O7ZL-tI-XzVNhMKcfao8LDTRcPf5DeXhaGJXTAHElqotWIePRGO2sS3pGk5Zc0l6NvZM35jTgz2F_ycfDsBVZ4p7rR06FvqhFFuVn5rTs5rkkhs2tC4XrflYIImDNavSbcQbP9sjA5dSZrGy9gr4hDUYeW-q7PUs-HCJepqapO4zNqaw5jMFxqI7fu6YokcD06zeUBjylFL-9fNO-hUS2Qfj-QUmef5bT_uLZNJBcnqMI6oI2s1o7rr3s84NFLOyL746yjYE_1VsVCbHJE0jNhGXlcJGfX8YR3a5gQ8sRammRBBklta9DY0-Em6Q1likpH_G9Xo2Q7qpT-B35pc0YFDEQpou-nPLfDFWtoyy-RReaTYvXKMIuyLztezIV6_c4mg_HSNE36aLMtB35Ax-bhzwYSyHi0nBa2FCQ5HaQOxd_cP__6WQrDC5kcwGp5ieGhLlv9RUOnNjuPe4lQp5gCPjzWnyn11T_-U1jVH7PgfgK9isMFapAB_hDa1GA9Tt0p5GpGL7VPtFGxf0wU3AHlcUazT-ugoRjewUXBBe5P1s9qWe6vJW6cd1iF8J0IO4tUD1tNByrijSeviOMCI9GrsptCS8Sgt0=s1594-w1594-h757-no?authuser=4?.jpg)
+![](https://i.imgur.com/Euv6MNF.png)
 
 After going to the link you copied you will be sent here where you will pick a server for your bot to join
-![](https://lh3.googleusercontent.com/fife/ABSRlIpXSo15JKFh2VNgjjYv8Dc6j_JKt6oilRgOCrzAGdQHIG_1T5mlQ6b3NXAetnADo0T_nbM8IFhN7X8mhcs4VkDGQgMQY0dPY34fyUbgLuVHgOCgjYy2H-WxNxHYCCoZy1dtYyCKbDDOtRlMXn5ZNeLhPWHbYqZNOnkYL1AnL5zQN3Gc4f-y4Dh5os8OzI4dviB72z3g7u2vg8AHQNAJHstI5BZLsOKHPaKZOkRuMnTNpRb28AgGUlkcGqXUQ-lZYyIOtvhFzB0EyZVVOi9_NJ9b19k4gT_3Pvkxa9tjF8SigrJz-uAoqkq08_LPxD84OUDa--lGOwcmVlZ6eCU34lVHGqJzt3PhzceZi_j6-Y4cw9_TSGxabJB0ZKqnuezh_8KzZzr32rR20_d5BfQMjgrINOmmEGahz80lpdiP5XVGxQXYkhc5qH7lCojYjBZtCJFQ19p2RDVjeGq3fI1ZFZ5GvU-VyQpgk0kInwC_D7AQpppLmZU8QiMMGZJSXvckpU8t28bpHymHoA3aXE1Kioz3vYdnQo7j8wq_WVrHmvtnupr3QhGY1Oc0_Bb4nKvGKm5KzJhF1Ad6j-92FzorkoXj8O9vg_5ySL4cs_tlTCeu7ySzkSiyZGLLHzXBHdKoy3hr3UxI7s5zvAkhrCgX0gXqcsB62O3JoSqRcA5WH8HHfs7UC8k6eWVaBBeQViju6lIoGnNdp48zxhqw_pLccVHY=s1596-w1596-h757-no?authuser=4?.jpg)
+![](https://i.imgur.com/ID4xJ1a.png)
 
 And you should now see that your bot joined the server you told it to join!
-![](https://lh3.googleusercontent.com/fife/ABSRlIrZLU36yuJO7XnQ9wHN3fFAC5zSgviNok4JzS8QX6RfmnVdpZZ62FI1NY6nPR1wc4SGWhXzPe-a1pujq-pZyPO2ERy-pcFcgpUo2n1I1lSlTMSA3cDLm0ZX3-Lx4sa5y7Z1D4RVYcQEFtxCnQ95-ePm33wONunCVSBTLC89iIz5g_qN1C8cEJ_U4AO4I-JI0mt0RsLAOCeZ1RIl1BK9OtUKN1K4zpExBc7KWSYAPdfQALcl16qEPXC1CiSpboGplOhABY7_cRzhb_pT00PXnN4cP4R29SFpYnderymmz36qCkXAqlNfKTrlrK-veM0X_avS5lWXlOHkuBM-CfsaBHNhMLcyQL3cz5je_ZPPBwxn8stIkH3YOX3cVP3kk6bFYL_K7Z_DBAyvhK892F0YNTU6f08N9OkzrUC_aeOuIkKnGj04XVbTWS9gGRu1odRO0MWDijyCmfU7g0fUtA_RseUDC7AswepgtpnVq6PkOvOegRxxCQoS2a17ALTH1vIUlac2OeAYXIFPrl5IJjCmwT56etgjLrYzefAkML1faItl_4CD8i0Kx7N57zWin2rUOTYP0xqjfvX7HFT-mj1fqsA9WknoDwiAGzCStkFub57cq_qvOILy6eeXfwRblbDZ2aR1aTD1YD7lTOOwKIMm1LpeRXF5dxbdqUNYRe1BSeBNq53IVpQnkrAnTG4rHjAxiajk0AEkmc5_8lExqBO68g31=s985-w985-h83-no?authuser=4?.jpg)
+![](hhttps://i.imgur.com/wmuZ6La.png)
 
-## Usage 
+## Usage
 
-Now that your bot has joined your server and you have it running You can run 
+Now that your bot has joined your server and you have it running You can run
 
 Command | Usage / Example
 ------------ | -------------

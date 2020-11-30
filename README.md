@@ -86,7 +86,7 @@ python bot.py
 ```
 And if everything worked you should see ***Bot is online!*** be printed in the console
 
-![]https://i.imgur.com/y76moH4.png)
+![](https://i.imgur.com/LDSfJ68.png)
 
 And now you need to invite the bot to a server, to do this head over to ***OAuth2***
 ![](https://i.imgur.com/UweLfC2.png)

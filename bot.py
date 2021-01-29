@@ -60,4 +60,4 @@ async def backspace(ctx):
 async def on_ready():
     print('Bot is online!')
 
-bot.run("Roku_IP")
+bot.run("Bot_Token")

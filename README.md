@@ -1,5 +1,5 @@
 # RokuBot
-RokuBot is a open source discord bot which can control a RokuTV!
+RokuBot is an open-source discord bot that can control a RokuTV!
 
 ## Installation
 
@@ -28,7 +28,7 @@ You will need to edit the Roku_IP in
 roku = Roku("Roku_IP")
 ```
 
-To get the IP of your roku you will need to go to your roku, so you should start here
+To get the IP of your Roku you will need to go to your Roku, so you should start here
 
 ![](https://i.imgur.com/ihyMnCg.png)
 
@@ -45,7 +45,7 @@ And then right one more time onto ***About***
 ![](https://i.imgur.com/neKkNmB.png)
 
 And then take note of the ***IP address*** which in my case in 192.168.1.56
-this will now replace the Roku_IP which I showed earlier, so lets say your Roku's IP address is the same as mine
+this will now replace the Roku_IP which I showed earlier, so let's say your Roku's IP address is the same as mine
 
 ```python
 roku = Roku("Roku_IP")
@@ -62,7 +62,7 @@ bot.run("Bot_Token")
 To do this you will need to
 A. Have a Discord account which I'm guessing you already have
 And B. Be on the [Discord Developer Portal](https://discord.com/developers/applications)
-To get a Bot Token you will need a Discord application which can be made by simply by clicking ***New Application***
+To get a Bot Token you will need a Discord application which can be made simply by clicking ***New Application***
 ![](https://i.imgur.com/T54DiM3.png)
 Giving your application a name (can be anything I just named it Roku Bot in this example)
 ![](https://i.imgur.com/yodst7s.png)
@@ -114,11 +114,11 @@ $right | Imitates pressing the right control button on a Roku remote
 $select | Imitates pressing the center select button on a Roku remote
 $back | Imitates pressing the back button on a Roku remote
 $type "What you want to type" | Imitates typing on a Roku TV can be used for typing in a video name on the Youtube app for example
-$backspace | Imitates pressing backspace on a Roku TV which can be used in a app such as Youtube
+$backspace | Imitates pressing backspace on a Roku TV which can be used in an app such as Youtube
 
 
 ## Do you accept Pull requests?
-Heck yes! If you have any ideas at for what I should add to RokuBot please add it in a pull request.
+Heck yes! If you have any ideas for what I should add to RokuBot please add it in a pull request.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

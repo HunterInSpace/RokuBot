@@ -4,12 +4,12 @@ from roku import Roku
 
 roku = Roku("Roku_IP")
 
-bot = commands.Bot(command_prefix = '$')
+bot = commands.Bot(command_prefix = '$', status=discord.Status.online, activity=discord.Game('With Roku!'))
 
 @bot.command()
 async def home(ctx):
-	await ctx.send('***Command has been sent!***')
 	roku.home()
+	await ctx.send('***Command has been sent!***')
 
 @bot.command()
 async def stop(ctx):
@@ -18,33 +18,33 @@ async def stop(ctx):
 
 @bot.command()
 async def down(ctx):
-	await ctx.send('***Command has been sent!***')
 	roku.down()
+	await ctx.send('***Command has been sent!***')
 
 @bot.command()
 async def up(ctx):
-	await ctx.send('***Command has been sent!***')
 	roku.up()
+	await ctx.send('***Command has been sent!***')
 
 @bot.command()
 async def left(ctx):
-	await ctx.send('***Command has been sent!***')
 	roku.left()
+	await ctx.send('***Command has been sent!***')
 
 @bot.command()
 async def right(ctx):
-	await ctx.send('***Command has been sent!***')
 	roku.right()
+	await ctx.send('***Command has been sent!***')
 
 @bot.command()
 async def select(ctx):
-	await ctx.send('***Command has been sent!***')
 	roku.select()
+	await ctx.send('***Command has been sent!***')
 
 @bot.command()
 async def back(ctx):
-	await ctx.send('***Command has been sent!***')
 	roku.back()
+	await ctx.send('***Command has been sent!***')
 
 @bot.command()
 async def type(ctx, arg):
@@ -53,12 +53,11 @@ async def type(ctx, arg):
 
 @bot.command()
 async def backspace(ctx):
-	await ctx.send('***Command has been sent!***')
 	roku.backspace()
+	await ctx.send('***Command has been sent!***')
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(status=discord.Status.online, activity=discord.Game('With Roku!'))
     print('Bot is online!')
 
-bot.run("Bot_Token")
+bot.run("Roku_IP")
